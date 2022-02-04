@@ -20,6 +20,8 @@
 #       convert to integer and set as true
 # repeat for each row
 
+require_relative 'knight_node'
+
 def int_to_index(int_pos)
   [int_pos / 8, int_pos % 8]
 end
@@ -53,13 +55,40 @@ end
 # Breadth first search of graph and return the moment you reach
 # the required destination (pos2 in knight_travels method)
 
-adjacency_matrix = Array.new(64) { |x| valid_moves(x) }
-
-def knight_travels(index_start, index_end, adj_matrix)
-  queue = []
-  int_pos_start = index_to_int(index_start)
-  int_end_pos = index_to_int(index_end)
-  
+adjacency_matrix = Array.new(64) do |x|
+  valid_moves(x)
 end
 
-knight_travels([0, 0], [3, 3], [], adjacency_matrix)
+def knight_travels(index_start, index_end, adj_matrix)
+  k = 0
+  int_pos_start = index_to_int(index_start)
+  int_pos_end = index_to_int(index_end)
+  # int_pos => [distance_from end, parent]
+  distance_hash = { int_pos_end => [0, nil] }
+  int_pos_queue = [int_pos_end]
+
+  until int_pos_queue.empty?
+    curr = int_pos_queue.shift
+
+    adj_matrix[curr].each do |pos|
+      next if distance_hash.key?(pos)
+
+      int_pos_queue << pos
+      distance_hash[pos] = [k + 1, curr]
+    end
+
+    k += 1
+  end
+  # TODO: backtrack from start to end and print all indeces
+  # FIXME: distance_hahs is not populating properly
+  x = distance_hash[int_pos_start]
+  p int_to_index(int_pos_start)
+  p int_to_index(x[1])
+  until x[0].zero?
+    x = distance_hash[x[1]]
+    p int_to_index(x[1]) if x[1]
+    # child of destination will print destination as parent
+  end
+end
+
+knight_travels([1, 3], [0, 7], adjacency_matrix)
