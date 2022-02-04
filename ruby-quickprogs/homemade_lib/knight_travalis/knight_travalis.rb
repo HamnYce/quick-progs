@@ -12,7 +12,6 @@
 # x = integer / 8
 # y = integer % 8
 # e.g. 26, x = 26 / 8 = 3, y = 26 % 8 = 2, [3][2]
-require_relative 'knight_node'
 
 def int_to_index(int_pos)
   [int_pos / 8, int_pos % 8]
