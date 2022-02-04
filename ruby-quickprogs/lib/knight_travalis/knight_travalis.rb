@@ -79,8 +79,6 @@ def knight_travels(index_start, index_end, adj_matrix)
 
     k += 1
   end
-  # TODO: backtrack from start to end and print all indeces
-  # FIXME: distance_hahs is not populating properly
   x = distance_hash[int_pos_start]
   p int_to_index(int_pos_start)
   p int_to_index(x[1])
