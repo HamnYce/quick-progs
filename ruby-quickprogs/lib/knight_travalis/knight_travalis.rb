@@ -12,14 +12,6 @@
 # x = integer / 8
 # y = integer % 8
 # e.g. 26, x = 26 / 8 = 3, y = 26 % 8 = 2, [3][2]
-
-# condition for true vs false
-# convert from integer position to coordinate
-# calculate possible coordinates:
-#     if (coordinate is valid)
-#       convert to integer and set as true
-# repeat for each row
-
 require_relative 'knight_node'
 
 def int_to_index(int_pos)
@@ -52,13 +44,16 @@ def cartesian_to_index(cart_coord)
   cart_coord.reverse
 end
 
-adjacency_matrix = Array.new(64) do |x|
+@adjacency_matrix = Array.new(64) do |x|
   valid_moves(x)
 end
 
-# IMPORTANT NOTE:
-# index begins at 0,0 top left corner and ends at 7,7 bottom right corner
-def knight_travels(index_start, index_end, adj_matrix)
+# IMPORTANT NOTE FOR INDEXES:
+# 0,0 top left corner
+# 7,0 bottom left corner
+# 0,7 top right corner
+# 7,7 bottom right corner
+def knight_travels(index_start, index_end)
   int_pos_start = index_to_int(index_start)
   int_pos_end = index_to_int(index_end)
   # Distance Hash: {int_position => [distance_from_end, parent_pos]}
@@ -68,17 +63,21 @@ def knight_travels(index_start, index_end, adj_matrix)
   # Breath First search and keeping track of distance
   # from the destination using distance_hash to hold parent
   # and distance
+  breadth_first_search(int_pos_queue, distance_hash)
+
+  print_parents(int_pos_start, distance_hash)
+end
+
+def breadth_first_search(queue, distance_hash)
   distance = 0
-  until int_pos_queue.empty?
-    parent_node = int_pos_queue.shift
+  until queue.empty?
+    parent_node = queue.shift
 
-    adj_matrix[parent_node].each do |adjacent_node|
-      # skip the setting of distance + parent if node has been visited
-      # we test if visited by checking if distance_hash has key
-      next if distance_hash.key?(adjacent_node) # if visited
+    @adjacency_matrix[parent_node].each do |adjacent_node|
+      next if distance_hash.key?(adjacent_node) # skip if visited
 
-      # enqueue / dequeue as basic strategy for BFS
-      int_pos_queue << adjacent_node
+      # enqeue for BFS
+      queue << adjacent_node
 
       distance_hash[adjacent_node] = [distance + 1, parent_node]
     end
@@ -86,13 +85,12 @@ def knight_travels(index_start, index_end, adj_matrix)
     # with each loop
     distance += 1
   end
+end
+
 
   # using distance Hash to back track starting from start_pos
   # and jumping to parent_pos until reaching parent (indicated by 
   # nil value for parent_pos)
-  print_parents(int_pos_start, distance_hash)
-end
-
 def print_parents(int_pos_start, distance_hash)
   # Distance Hash: {int_position => [distance_from_end, parent_pos]}
   x = distance_hash[int_pos_start]
@@ -105,4 +103,4 @@ def print_parents(int_pos_start, distance_hash)
   end
 end
 
-knight_travels([1, 3], [0, 7], adjacency_matrix)
+knight_travels([1, 3], [0, 7])
