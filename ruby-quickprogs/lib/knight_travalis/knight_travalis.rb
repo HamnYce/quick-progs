@@ -87,10 +87,9 @@ def breadth_first_search(queue, distance_hash)
   end
 end
 
-
-  # using distance Hash to back track starting from start_pos
-  # and jumping to parent_pos until reaching parent (indicated by 
-  # nil value for parent_pos)
+# using distance Hash to back track starting from start_pos
+# and jumping to parent_pos until reaching parent (indicated by 
+# nil value for parent_pos)
 def print_parents(int_pos_start, distance_hash)
   # Distance Hash: {int_position => [distance_from_end, parent_pos]}
   x = distance_hash[int_pos_start]
