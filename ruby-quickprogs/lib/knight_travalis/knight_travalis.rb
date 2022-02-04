@@ -52,33 +52,49 @@ def cartesian_to_index(cart_coord)
   cart_coord.reverse
 end
 
-# Breadth first search of graph and return the moment you reach
-# the required destination (pos2 in knight_travels method)
-
 adjacency_matrix = Array.new(64) do |x|
   valid_moves(x)
 end
 
+# IMPORTANT NOTE:
+# index begins at 0,0 top left corner and ends at 7,7 bottom right corner
 def knight_travels(index_start, index_end, adj_matrix)
-  k = 0
   int_pos_start = index_to_int(index_start)
   int_pos_end = index_to_int(index_end)
-  # int_pos => [distance_from end, parent]
+  # Distance Hash: {int_position => [distance_from_end, parent_pos]}
   distance_hash = { int_pos_end => [0, nil] }
   int_pos_queue = [int_pos_end]
 
+  # Breath First search and keeping track of distance
+  # from the destination using distance_hash to hold parent
+  # and distance
+  distance = 0
   until int_pos_queue.empty?
-    curr = int_pos_queue.shift
+    parent_node = int_pos_queue.shift
 
-    adj_matrix[curr].each do |pos|
-      next if distance_hash.key?(pos)
+    adj_matrix[parent_node].each do |adjacent_node|
+      # skip the setting of distance + parent if node has been visited
+      # we test if visited by checking if distance_hash has key
+      next if distance_hash.key?(adjacent_node) # if visited
 
-      int_pos_queue << pos
-      distance_hash[pos] = [k + 1, curr]
+      # enqueue / dequeue as basic strategy for BFS
+      int_pos_queue << adjacent_node
+
+      distance_hash[adjacent_node] = [distance + 1, parent_node]
     end
-
-    k += 1
+    # increment k as we are getting one layer away from the source
+    # with each loop
+    distance += 1
   end
+
+  # using distance Hash to back track starting from start_pos
+  # and jumping to parent_pos until reaching parent (indicated by 
+  # nil value for parent_pos)
+  print_parents(int_pos_start, distance_hash)
+end
+
+def print_parents(int_pos_start, distance_hash)
+  # Distance Hash: {int_position => [distance_from_end, parent_pos]}
   x = distance_hash[int_pos_start]
   p int_to_index(int_pos_start)
   p int_to_index(x[1])
