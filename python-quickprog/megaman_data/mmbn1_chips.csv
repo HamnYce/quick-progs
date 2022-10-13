@@ -1,0 +1,177 @@
+ID,Name,Damage,Codes,Description,Rarity,Locations
+001,Cannon(キャノン),40,"A, B, C, D, E","A nice, big cannon!",*,A Chip: Found in starting folder. Defeat the Canodumb virus with a 5-7 Busting LV.B Chip: Found in starting folder. Defeat the Canodumb virus with a 7-10 Busting LV.C Chip: Sold by NetDealer in Internet 1 (3000z). School Comp 5 BMD. Internet 2 GMD.D Chip: Defeat the Canodumb virus with a 9-S Busting LV.E Chip: Sold at Higsby's (). Internet 9 GMD.
+002,HiCannon(ハイキャノン),80,"F, G, H, I, J","A nice, big cannon!",**,F Chip: Defeat the Canodumb2 virus with a 5-7 Busting LV.G Chip: Defeat the Canodumb2 virus with a 7-9 Busting LV.H Chip: Defeat the Canodumb2 virus with a 10-S Busting LV.I Chip: School Comp 2 BMD. Internet 6 GMD.J Chip: Dad's PC BMD. Internet 9 GMD.
+003,M-Cannon(メガキャノン),120,"K, L, M, N, O","A nice, big cannon!",***,K Chip: Defeat the Canodumb3 virus with a 5-7 Busting LV.L Chip: Sold by NetDealer in Internet 3 (10000z). Sold by NetDealer in Internet 10 (). Waterworks Comp 4 BMD. Internet 12 GMD.M Chip: Defeat the Canodumb3 virus with a 10-S Busting LV.N Chip: Internet 10 GMD. Internet 14 GMD.O Chip: Defeat the Canodumb3 virus with a 7-9 Busting LV.
+004,Shotgun(ショットガン),30,"K, M, N, Q (MMBN), R, * (OSS)",Hits enemy and keeps going 1pnl,*,K Chip: Doghouse Comp BMD. Internet 1 GMD.N Chip: Found in starting folder.Q Chip: Oven Comp 1 GMD. Oven Comp 2 BMD.
+005,CrossGun(クロスガン),30,"C (MMBN), E, F, J, K, * (OSS)",4-panel diagonal blast,*,"C Chip: Email from Dad - ""Sorry!"".F Chip: Internet 10 GMD.J Chip: Found in starting folder.K Chip: Internet 2 GMD."
+006,Spreader(スプレッドガンSpread Gun),30,"H, I, J, K, L",Gun with a 1-panel blast,**,H Chip: School Comp 3 BMD. Internet 3 GMD.I Chip: Sold by NetDealer in Internet 1 (1000z). Talk to Glyde after finding Yai's lost program. Internet 6 GMD.J Chip: Waterworks Soda Machine Comp BMD. Internet 3 GMD.MK Chip: Sold at Higsby's (). Internet 7 GMD.L Chip: Internet 9 GMD.
+007,Bubbler(バブルスプレッドBubble Spread),50,"A, K, L (MMBN), P, S, * (OSS)",Bubbles w/ a 1-panel blast,*,A Chip: Defeat Puffy with a 7-9 Busting LV.K Chip: Traffic Light Comp 1 BMD.P Chip: Defeat the Puffy virus with a 5-7 Busting LV.S Chip: Defeat the Puffy virus with a 9-S Busting LV.
+008,Heater(ヒートスプレッドHeat Spread),70,"C (MMBN), F, G, K, O, * (OSS)",Fire with a 1-panel blast,**,F Chip: Defeat the Puffy2 virus with a 5-7 Busting LV.G Chip: Defeat the Puffy2 virus with a 7-9 Busting LV.K Chip: Defeat the Puffy2 virus with a 9-S Busting LV.O Chip: Traffic Light Comp 3 BMD.
+009,MiniBomb(ミニボム),50,"C, E, J, L, P (MMBN), * (OSS)",Throw a bomb! Depth=3,*,C Chip: Found in starting folder.L Chip: Found in starting folder.P Chip: Internet 2 GMD.
+010,LilBomb(スモールボムSmall Bomb),50 (MMBN)80 (OSS),"B, D, G, O, T",Throw a bomb! Depth=3,*,
+011,CrosBomb(クロスボム),70 (MMBN)80 (OSS),"B, D, H, J, L",Cross bomb Depth=3,**,"Chip B, D H: Defeat the Beetank2 virus found in Internet Area 3."
+012,BigBomb(ビッグボム),90,"B, G, O, S, T",Bomb with a big boom Depth=3,***,"Chip B, O, T: Defeat the Beetank3 virus found in Internet Area 5, Internet Area 6, Internet Area 7, Internet Area 8, Internet Area 13"
+013,Sword(ソード),80,"B, K, L, P, S",Cut down enemies Range=1,*,
+014,WideSwrd(ワイドソード),80,"C, K, M, N, S",Cut down column! Range=1,*,
+015,LongSwrd(ロングソード),80 (MMBN)100 (OSS),"D, E, N, O, S",Cut down enemies! Range=2,**,
+016,FtrSwrd(ファイターソード),100,"B, K, L, P, S",Warrior's sword Range=3,****,
+017,KngtSwrd(ナイトソード),150,"B, C, E, G, H",Knight's sword Range=3,****,
+018,HeroSwrd(パラディンソードPaladin Sword),200,"B, D, F, I, G, J",Legendary sword Range=3,*****,D Chip: Low Probability Drop via Super Exchanger at Higsby's.
+019,FireSwrd(フレイムソードFlame Sword),100 (MMBN)120 (OSS),"B, F, G, N, P",Cuts down column Range=1,**,
+020,AquaSwrd(アクアソード),150,"A, M, N, O, P",Cuts down column Range=1,***,
+021,ElecSwrd(エレキソード),120 (MMBN)130 (OSS),"E, G, L, O, S",Cuts down column Range=1,***,
+022,Muramasa(ムラマサ),-,"C, E, G, J, K",Do damage = to your HP loss,*****,
+023,ShokWave(ショックウェーブ),60,"C, K, L, N, P",Piercing ground wave,*,
+024,SoniWave(ソニックウェーブ),80,"C, D, J, M, S",Piercing ground wave,**,
+025,DynaWave(ダイナウェーブ),100,"C, E, M, S, R",Piercing ground wave,***,
+026,FireTowr(フレイムタワーFlame Tower),100,"E, F, L, M, T",Fire that can move up & down,**,
+027,AquaTowr(アクアタワー),120,"A (MMBN), C, G, H, R, * (OSS)",Water that can move up & down,**,
+028,WoodTowr(ウッディタワーWoody Tower),140,"B, C, H (MMBN), K, N, * (OSS)",Log that can move up & down,**,"B, C, K Chips: Vs Popper Virus found in Sal's Register, Internet Area 5, Internet Area 6, Internet Area 7, Internet Area 8, Internet Area 9"
+029,Quake1(アースクエイク１Earthquake 1),90,"A, E, H, K, Q",Cracks a panel Depth=3,*,
+030,Quake2(アースクエイク２Earthquake 2),120,"B, C, I, K, Q",Cracks a panel Depth=3,**,
+031,Quake3(アースクエイク３Earthquake 3),150,"C, D, H, M, Q",Cracks a panel Depth=3,***,
+032,GutsPnch(ガッツパンチ),60 (MMBN)160 (OSS),"B, H, M, N, T",Knocks stuff over Range=1,*,
+033,IcePunch(コールドパンチCold Punch),80 (MMBN)150 (OSS),"B, H, M, N, T",Knocks stuff over Range=1,**,
+034,Dash(ダッシュアタックDash Attack),50,"B, D, G, L, O",Knock over all in your path!,*,
+035,Howitzer(ホウガンHougan),150 (MMBN)200 (OSS),"A, C, G, H, O",Breaks panels Depth=3,****,
+036,TriArrow(トリプルアロー),40,"A, B, C, D, E",Fires a 3-arrow burst,*,
+037,TriSpear(トリプルスピア),50,"F, G, H, I, J",Fires a 3-spear burst,**,
+038,TriLance(トリプルランス),60,"K, L, M, N, O",Fires a 3-lance burst,****,
+039,Ratton1(ラットン１),80 (MMBN)90 (OSS),"A, B, C, D, E",Missile that can turn once,*,
+040,Ratton2(ラットン２),100 (MMBN)110 (OSS),"F, G, H, I, J",Missile that can turn once,**,
+041,Ratton3(ラットン３),120 (MMBN)130 (OSS),"K, L, M, N, O",Missile that can turn once,***,
+042,Wave(ツナミTsunami),80,"A, D, I, L, M",3-row wave! [Aqua],***,
+043,RedWave(アカツナミAka Tsunami),100,"B, E, J, N, P",3-row lava wave! [Fire],***,
+044,BigWave(オオツナミŌ Tsunami),160,"C, H, K, L, Q",3-row giant wave! [Aqua],****,
+045,Gaia1(ガイアハンマー１Gaia Hammer 1),100,"C, D, L, O, T",Rolling 3-column explosion!,***,
+046,Gaia2(ガイアハンマー２Gaia Hammer 2),130,"C, F, K, P, S",Rolling 3-column explosion!,****,
+047,Gaia3(ガイアハンマー３Gaia Hammer 3),160,"C, G, M, N, T",Rolling 3-column explosion!,*****,
+048,Thunder1(サンダーボール１Thunder Ball 1),90,"A, E (MMBN), G, H, S, * (OSS)",A rolling lightning attack,*,
+049,Thunder2(サンダーボール２Thunder Ball 2),120,"B (MMBN), C, F, I, L, * (OSS)",A rolling lightning attack,**,
+050,Thunder3(サンダーボール３Thunder Ball 3),150,"D, F, G, K, N",A rolling lightning attack,***,
+051,RingZap1(エレキサークル１Elec Circle 1),100,"G, H, M (MMBN'), N, P, * (OSS)",Lightning circles you once,*,
+052,RingZap2(エレキサークル２Elec Circle 2),100,"C, E, G (MMBN), J, L, * (OSS)",Lightning circles you twice,**,
+053,RingZap3(エレキサークル３Elec Circle 3),100,"A, B, O, R, T",Lightning circles you thrice,***,
+054,Typhoon(タイフーン),30,"A, B, D, E, G",Creates a twister w/ 3 hits,*,
+055,Huricane(ハリケーン),30,"G, I, J, K, L",Creates a twister w/ 5 hits,**,
+056,Cyclone(サイクロン),30,"E, F, G, H, I",Creates a twister w/ 8 hits,***,
+057,Snakegg1(エッグスネーク１Egg Snake 1),130,"B, E, G (MMBN), M, N, * (OSS)",Squirming snake attack!,*,
+058,Snakegg2(エッグスネーク２Egg Snake 2),140,"C, E, H (MMBN), N, P, * (OSS)",Shocking snake attack!,**,
+059,Snakegg3(エッグスネーク３Egg Snake 3),150,"A, C, F, L, S",Scorching snake attack!,***,
+060,Drain1(モスキート１Mosquito 1),50,"A, B, D, K, O",Charge to drain HP from enemy,**,
+061,Drain2(モスキート２Mosquito 2),70,"A, C, H, N, T",Charge to drain HP from enemy,**,
+062,Drain3(モスキート３Mosquito 3),90,"A, E, F, L, Q",Charge to drain HP from enemy,***,
+063,BodyBurn(バーニングボディBurning Body),100 (MMBN)180 (OSS),"E, F, K, M, N (MMBN), * (OSS)",Engulf all around you in flames!,****,
+064,X-Panel1(パネルアウト１Panel Out 1),-,"B, D (MMBN), G, L, S, * (OSS)",Erase 1 panel Range=1,**,
+065,X-Panel3(パネルアウト３Panel Out 3),-,"B, D (MMBN), G, L, S, * (OSS)",Erase column Range=1,***,
+066,Hammer(ブレイクハンマーBreak Hammer),100 (MMBN)220 (OSS),"A, F, I, M, Q (MMBN), * (OSS)",Breaks cubes Range=1,**,
+067,MetGuard(メットガード),-,"A, C, E, G, L",Hold A Btn for 3 sec defense!,*,
+068,IronShld(メタルシールドMetal Shield),-,"A, B, O, R, T",Hold btn. to create shield!,**,
+069,Recov10(リカバリー１０),-,"A, C, E, G (MMBN), L, * (OSS)",Recover 10HP,*,G Chip: Defeat the Spooky1 virus with a 4-5 Busting LV.
+070,Recov30(リカバリー３０),-,"A (MMBN), B (OSS), C, D (OSS), E (MMBN), G (MMBN), L, * (OSS)",Recover 30HP,*,
+071,Recov50(リカバリー５０),-,"A (MMBN), C, E (MMBN), G (MMBN), M (OSS), S (OSS), L, * (OSS)",Recover 50HP,*,
+072,Recov80(リカバリー８０),-,"A (MMBN), C, E, G (MMBN), L, N (OSS), * (OSS)",Recover 80HP,*,
+073,Recov120(リカバリー１２０),-,"A (MMBN), C (MMBN), E (MMBN), F (OSS), G (MMBN), H (OSS), L, R (OSS), * (OSS)",Recover 120HP,**,
+074,Recov150(リカバリー１５０),-,"A (MMBN), C (MMBN), D (OSS), E (MMBN), G (MMBN), K (OSS), L, M (OSS), O (OSS)",Recover 150HP,**,
+075,Recov200(リカバリー２００),-,"A (MMBN), C (MMBN), E (MMBN), G (MMBN), I (OSS), J (OSS), L, N (OSS), Q (OSS)",Recover 200HP,***,
+076,Recov300(リカバリー３００),-,"A (MMBN), C (MMBN), E (MMBN), G, L, O (OSS), P (OSS), T (OSS)",Recover 300HP,****,
+077,Steal(エリアスチールArea Steal),-,"A, E, L, P (MMBN), S, * (OSS)",Steal left column of enemy area,***,
+078,Geddon1(デスマッチ１Deathmatch 1),-,"F (MMBN), H, J, L, N, * (OSS)",All panels become cracked!,***,
+079,Geddon2(デスマッチ２Deathmatch 2),-,"A, B, E, I (MMBN), K, Q (OSS)",Erases all empty panels,****,
+080,Escape(エスケープ),-,"F, H, J, L, N",Escape from most enemies,***,
+081,Interupt(インターラプト),-,"F, H, J, L, N",Destroy enemy chip data,***,
+082,Repair(パネルリターンPanel Return),-,"A, G, H, K (MMBN), S, * (OSS)",Repair panels in your area,*,
+083,TimeBom1(カウントボム１Count Bomb 1),80,"E, G, J, L, Q",Sets time bomb in enemy area,**,
+084,TimeBom2(カウントボム２Count Bomb 2),120,"C, F, J, L, S",Sets time bomb in enemy area,***,
+085,TimeBom3(カウントボム３Count Bomb 3),160,"A, B, G, O, P",Sets time bomb in enemy area,****,
+086,Cloud(クラウド),30 (MMBN)60 (OSS),"B, G (MMBN), H, O, R, * (OSS)",Rains up & down on 1 column,*,
+087,Cloudier(モアクラウドMore Cloud),50 (MMBN)80 (OSS),"A, D (MMBN), I, M, P, * (OSS)",Rains up & down on 1 column,**,
+088,Cloudest(モストクラウドMost Cloud),100,"C, F, J, K, O",Rains up & down on 1 column,***,
+089,Mine1(ステルスマイン１Stealth Mine 1),160,"G, H, M, N, P (MMBN), * (OSS)",Hides a mine in enemy area,**,
+090,Mine2(ステルスマイン２Stealth Mine 2),180,"C, E, G (MMBN), J, L, * (OSS)",Hides a mine in enemy area,***,
+091,Mine3(ステルスマイン３Stealth Mine 3),200,"A, B, O, R, T",Hides a mine in enemy area,****,
+092,Dynamyt1(ダイナマイト１),100,"B, G, O, Q, S",Looks right for enemy,***,
+093,Dynamyt2(ダイナマイト２),120,"A, C, K, M, N",Looks diagonally for enemy,***,
+094,Dynamyt3(ダイナマイト３),150,"G, K, M, O, P",Looks up & down for enemy,***,
+095,Remobit1(リモコゴロー１Rimoko Goro 1),80,"A, C, F (MMBN), N, O, * (OSS)",Remote control smasher!,*,
+096,Remobit2(リモコゴロー２Rimoko Goro 2),100,"B, D, E, H (MMBN), I, * (OSS)",Remote control smasher!,*,
+097,Remobit3(リモコゴロー３Rimiko Goro 3),120,"G, J, K, P, Q",Remote control smasher!,*,
+098,Lockon1(ロックオン1),10,"C, D, H, I, L",Creates a lock on satellite!,*,
+099,Lockon2(ロックオン2),15,"B, E, G, H, M",Creates a lock on satellite!,**,
+100,Lockon3(ロックオン３),20,"A, D, K, N, O",Creates a lock on satellite!,***,
+101,Candle1(リモローソク１Rimorō Soku 1),-,"C, F, I, P, S",Set candle & recover some HP,**,
+102,Candle2(リモローソク２Rimorō Soku 2),-,"B, E, G, J, L",Set candle & recover some HP,***,
+103,Candle3(リモローソク３Rimorō Soku 3),-,"A, D, H, K, M",Set candle & recover some HP,****,
+104,Anubis(ポイズンアヌビスPoison Anubis),-,"C, L, M, Q, T",Set Anubis statue to reduce HP,*****,
+105,IceCube(アイスキューブ),-,"A, C, I, L (MMBN), M, * (OSS)",Creates an ice cube Range=1,**,
+106,RockCube(ストーンキューブStone Cube),-,"B, E (MMBN), G, M, O, * (OSS)",Creates 3 rock cubes randomly,***,
+107,BstrGard(バスターガード),-,"A, G, K, N, R",1-turn of MetGuard w/ B Btn.,***,
+108,BstrBomb(バスターボム),-,"D, H, J, O, T",1-turn of MiniBomb w/ B Btn.,****,
+109,BstrSwrd(バスターソード),-,"B, E, L, P, S",1-turn use of Sword with B Btn,****,
+110,BstrPnch(バスターパンチ),-,"C, F, I, M, Q",1-turn of GutsPnch with B Btn,****,
+111,SloGauge(ヘビーゲージHeavy Gauge),-,"H (MMBN), K (MMBN), N (MMBN), O (MMBN), Q, * (OSS)",Slows down custom gauge,**,
+112,FstGauge(クイックゲージQuick Gauge),-,"A, C (MMBN), E (MMBN), L (MMBN), N (MMBN), * (OSS)",Speeds up custom gauge,**,
+113,Invis1(インビジブル１),-,"I, J, L, O (MMBN), Q, * (OSS)",Temporary immunity,**,
+114,Invis2(インビジブル２),-,"A, C, F, J, M",Temporary immunity,***,
+115,Invis3(インビジブル３),-,"B, D, H, K, N",Temporary immunity,****,
+116,Dropdown(テンジョウウラTenjou Ura),-,"A, B, O, R, T",Invisible until you attack!,*****,B Chip: Vs Popper2 Virus found in Internet Area 15 with a very high Busting LV.
+117,Popup(ユカシタYukashita),-,"C, D, H, K, N",Invisible when not attacking!,*****,"C, D, H, K, N Chips: Defeat the Rush Virus Found in Internet Area 13, Internet Area 14, or Internet Area 15"
+118,IronBody(アイアンボディ),-,"C, D, L, Q, R",30 seconds stoneshape Defense UP,**,"R Chip: Defeat the Gaia1 Virus Found in Internet Area 5, Internet Area 7, Internet Area 8, or Internet Area 9 Q Chip: Defeat the Gaia2 Virus Found in Internet Area 12 C Chip: Defeat the Gaia3 Virus Found in Internet Area 16"
+119,Barrier(バリア),-,"D (MMBN), F (MMBN), M (MMBN), R (MMBN), S (MMBN), * (OSS)",Nullify 1 enemy attack,**,
+120,BblWrap1(バブルラップ１),-,"C, E, G, I, M",Aqua wall Comes back if damaged,**,"E, G, I Chips: Vs Ammonicule virus found in DenTown Traffic Light 3 / Traffic Light 4 / Traffic Light 5 with a very high Busting LV."
+121,BblWrap2(バブルラップ２),-,"D, F, H, K, N",Aqua wall Comes back if damaged,**,
+122,BblWrap3(バブルラップ３),-,"A, B, L, Q, R",Aqua wall Comes back if damaged,***,
+123,LeafShld(リーフシールド),-,"C, D, F, K, Q",Turns dmg from 1 hit into HP,***,"C, Q Chips: Vs Popper3 virus found in Internet Area 14 or Internet Area 15 with a very high Busting LV."
+124,AquaAura(アクアオーラ),-,"D, E, L, R, S",Null<10dmg Weak vs. [Elec],**,"L, R, S Chips: Vs the Megalion Virus found in Internet Area 9, Internet Area 16, WWW Area 3, WWW Area 4 with a very high Busting LV."
+125,FireAura(フレイムオーラ),-,"B, G, I, N, T",Null<40dmg Weak vs. [Aqua],***,"B, I Chips: Vs Megalian2 Virus found in Internet Area 15/16 or WWW Area 2/4 with a very high Busting LV"
+126,WoodAura(ウッドオーラ),-,"C, F, J, O, Q",Null<80dmg Weak vs. [Fire],****,"F Chip: Vs Megalian3 Virus found in Internet Area 16 or WWW Area 6 with a very high Busting LV C Chip: Traded at GvtComplex Restaurant for Invis2 J, a Cloudest K and a Ratton3 L (Source)"
+127,LifeAura(ドリームオーラDream Aura),-,"A, H, K, M, P",Negate all attacks w/ damage<100,*****,H Chip: Defeat Bass with a 4-5 Busting LV.K Chip: Defeat Bass with a 6-7 Busting LV.M Chip: Defeat Bass with a 7-9 Busting LV.P Chip: Defeat Bass with a 9-S Busting LV. (Defeat Navi Bass.EXE found in Internet Area 16 as a random encounter only after obtaining 174/175 Chip Library in Postgame with Megaman Level +70)
+128,Roll(ロール),60,R,Hit enemy and heal some HP,***,R Chip: Talk to Mayl before entering School Network. (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)
+129,Roll2(ロールＶ２),80 (MMBN)100 (OSS),R,Hit enemy and heal some HP,****,"R Chip: Email from Mayl - ""Meeting Place"". (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)"
+130,Roll3(ロールＶ３),100 (MMBN)140 (OSS),R,Hit enemy and heal some HP,*****,R Chip: Talk to Yai at the WWW Base. (Extra Copies Available as a very low probability random drop Super Exchanger at Higby's)
+131,GutsMan(ガッツマン),40,"G, * (OSS)",Shock foe and crack enemy area,***,G Chip: Defeat GutsManV2 when battling for Dex's link. Defeat GutsManV3 with a 6-7 Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)
+132,GutsMan2(ガッツマンＶ２),70,G,Shock foe and crack enemy area,****,G Chip: Defeat GutsManV3 with a 7-10 Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)
+133,GutsMan3(ガッツマンＶ３),100,G,Shock foe and crack enemy area,*****,G Chip: Defeat GutsManV3 with a 10-S Busting LV. (Challenge Navi Operator Dex Oyama to fight Gutsman.EXE)
+134,ProtoMan(ブルースBlues),140,B,Hit column w/ nearest enemy,***,B Chip: Defeat ProtoManV2 with any Busting LV. Defeat ProtoManV3 with a 6-7 Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)
+135,ProtoMn2(ブルースＶ２Blues V2),160,B,Hit column w/ nearest enemy,****,B Chip: Defeat ProtoManV3 with a 7-10 Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)
+136,ProtoMn3(ブルースＶ３Blues V3),180,B,Hit column w/ nearest enemy,*****,B Chip: Defeat ProtoManV3 with a 10-S Busting LV. (Challenge Navi Operator Eugene Chaud to fight Protoman.EXE)
+137,FireMan(ファイアマン),100 (MMBN)110 (OSS),F,1 row fire arm,***,F Chip: Defeat FireManV2 with any rank. Defeat FireManV3 with a 6-7 Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)
+138,FireMan2(ファイアマンＶ２),120 (MMBN)140 (OSS),F,1 row fire arm,****,F Chip: Defeat FireManV3 with a 7-10 Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)
+139,FireMan3(ファイアマンＶ３),150 (MMBN)180 (OSS),F,1 row fire arm,*****,F Chip: Defeat FireManV3 with a 10-S Busting LV. (Defeat Ghost Navi Fireman found in Internet Area 1 as a random encounter)
+140,NumbrMan(ナンバーマン),-,N,DieRollx10 damage to enemy area,***,N Chip: Defeat NumberManV2 with any Busting LV. Defeat NumberManV3 with a 6-7 Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)
+141,NumbrMn2(ナンバーマンＶ２),-,N,DieRollx20 damage to enemy area,****,N Chip: Defeat NumberManV3 with a 7-10 Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)
+142,NumbrMn3(ナンバーマンＶ３),-,N,DieRollx30 damage to enemy area,*****,N Chip: Defeat NumberManV3 with a 10-S Busting LV. (Challenge Navi Operator Higsby to fight NumberMan.EXE)
+143,StoneMan(ストーンマン),100,S,Drops 3x3 stones on enemy area,***,S Chip: Defeat StoneManV2 with any Busting LV. Defeat StoneManV3 with a 6-7 Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)
+144,StoneMn2(ストーンマンＶ２),100,S,Drops 4x3 stones on enemy area,****,S Chip: Defeat StoneManV3 with a 7-10 Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)
+145,StoneMn3(ストーンマンＶ３),100,S,Drops 5x3 stones on enemy area,*****,S Chip: Defeat StoneManV3 with a 10-S Busting LV. (Defeat Ghost Navi StoneMan found in Internet Area 2 as a random encounter.)
+146,IceMan(アイスマン),60 (MMBN)80 (OSS),I,Blizzard attack on enemy area,***,I Chip: Defeat IceManV2 with any rank. Defeat IceManV3 with a 6-7 Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)
+147,IceMan2(アイスマンＶ２),80 (MMBN)100 (OSS),I,Blizzard attack on enemy area,****,I Chip: Defeat IceManV3 with a 7-10 Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)
+148,IceMan3(アイスマンＶ３),100 (MMBN)120 (OSS),I,Blizzard attack on enemy area,*****,I Chip: Defeat IceManV3 with a 10-S Busting LV. (Challenge Navi Operator Dr. Froid to fight IceMan.EXE)
+149,ColorMan(カラードマンColoredMan),90 (MMBN)120 (OSS),C,Towers of [Aqua] & [Fire]!,***,C Chip: Defeat ColorManV2 with any Busting LV. Defeat ColorManV3 with a 6-7 Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)
+150,ColorMn2(カラードマンＶ２ColoredMan V2),110 (MMBN)140 (OSS),C,Towers of [Aqua] & [Fire]!,****,C Chip: Defeat ColorManV3 with a 7-10 Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)
+151,ColorMn3(カラードマンＶ３ColoredMan V3),130 (MMBN)160 (OSS),C,Towers of [Aqua] & [Fire]!,*****,C Chip: Defeat ColorManV3 with a 10-S Busting LV. (Defeat Ghost Navi ColorMan found in Internet Area 9 as a random encounter.)
+152,ElecMan(エレキマン),90,E,Lightning hits enemy panel!,***,E Chip: Defeat ElecManV2 with any Busting LV. Defeat ElecManV3 with a 6-7 Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)
+153,ElecMan2(エレキマンＶ２),120,E,Lightning hits enemy panel!,****,E Chip: Defeat ElecManV3 with a 7-10 Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)
+154,ElecMan3(エレキマンＶ３),150,E,Lightning hits enemy panel!,*****,E Chip: Defeat ElecManV3 with a 10-S Busting LV. (Defeat Ghost Navi ElecMan found in Internet Area 6 as a random encounter.)
+155,BombMan(ボンバーマン),120,B,Enemy area CrossBomb Depth=3,***,B Chip: Defeat BombManV2 with any Busting LV. Defeat BombManV3 with a 6-7 Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)
+156,BombMan2(ボンバーマンＶ２),140,B,Enemy area CrossBomb Depth=3,****,B Chip: Defeat BombManV3 with a 7-10 Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)
+157,BombMan3(ボンバーマンＶ３),160,B,Enemy area CrossBomb Depth=3,*****,B Chip: Defeat BombManV3 with a 10-S Busting LV. (Defeat Ghost Navi BombMan found in Internet Area 11 as a random encounter.)
+158,MagicMan(マジックマン),100,M,Magic fire = instant delete!?,***,M Chip: Defeat MagicManV2 with any Busting LV. Defeat MagicManV3 with a 6-7 Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)
+159,MagicMn2(マジックマンＶ２),120,M,Magic fire = instant delete!?,****,M Chip: Defeat MagicManV3 with a 7-10 Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)
+160,MagicMn3(マジックマンＶ３),140,M,Magic fire = instant delete!?,*****,M Chip: Defeat MagicManV3 with a 10-S Busting LV. (Defeat Ghost Navi MagicMan found in Internet Area 14 as a random encounter.)
+161,WoodMan(ウッドマン),60 (MMBN)70 (OSS),W,Skewer entire enemy area,***,W Chip: Defeat WoodManV2 with any rank. Defeat WoodManV3 with a 6-7 Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)
+162,WoodMan2(ウッドマンＶ２),80 (MMBN)100 (OSS),W,Skewer entire enemy area,****,W Chip: Defeat WoodManV3 with a 7-10 Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)
+163,WoodMan3(ウッドマンＶ３),100 (MMBN)130 (OSS),W,Skewer entire enemy area,*****,W Chip: Defeat WoodManV3 with a 10-S Busting LV. (Challenge Navi Operator Sal to fight WoodMan.EXE)
+164,SkullMan(スカルマン),150,"S (MMBN), D (OSS)",Big skull attack on one enemy,***,S Chip: Defeat SkullManV2 with any Busting LV. Defeat SkullManV3 with a 6-7 Busting LV.D Chip: Defeat SkullManV2 with any Busting LV. Defeat SkullManV3 with a 6-7 Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)
+165,SkullMn2(スカルマンＶ２),180,"S (MMBN), D (OSS)",Big skull attack on one enemy,****,S Chip: Defeat SkullManV3 with a 7-10 Busting LV.D Chip: Defeat SkullManV3 with a 7-10 Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)
+166,SkullMn3(スカルマンＶ３),210,"S (MMBN), D (OSS)",Big skull attack on one enemy,*****,S Chip: Defeat SkullManV3 with a 10-S Busting LV.D Chip: Defeat SkullManV3 with a 10-S Busting LV. (Challenge Navi Operator Miyu found in the Antique Shop in DenTown to fight SkullMan.EXE)
+167,SharkMan(シャークマン),90 (MMBN)110 (OSS),S,3-row shark fin attack,***,S Chip: Defeat SharkManV2 with any Busting LV. Defeat SharkManV3 with a 6-7 Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)
+168,SharkMn2(シャークマンＶ２),110 (MMBN)130 (OSS),S,3-row shark fin attack,****,S Chip: Defeat SharkManV3 with a 7-10 Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)
+169,SharkMn3(シャークマンＶ３),130 (MMBN)150 (OSS),S,3-row shark fin attack,*****,S Chip: Defeat SharkManV3 with a 10-S Busting LV. (Challenge Navi Operator Masa found outside the Government Complex to fight SharkMan.EXE)
+170,PharoMan(ファラオマン),100 (MMBN)120 (OSS),P,3-row coffin laser!,*****,P Chip: Defeat PharaohMan with any Busting LV. Defeat PharaohManSP with a 6-7 Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)
+171,PharoMn2(ファラオマンＶ２),120 (MMBN)140 (OSS),P,3-row coffin laser!,*****,P Chip: Defeat PharaohManSP with a 7-10 Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)
+172,PharoMn3(ファラオマンＶ３),140 (MMBN)160 (OSS),P,3-row coffin laser!,*****,P Chip: Defeat PharaohManSP with a 9-S Busting LV. (Defeat Ghost Navi PharaohMan found in Internet Area 12 as a random encounter.)
+173,ShadoMan(シャドーマン),80 (MMBN)60 (OSS),"S (MMBN), T (OSS)",Split into 3 for star attack,*****,S Chip: Defeat ShadowMan with any Busting LV. Defeat ShadowManSP with a 6-7 Busting LV.T Chip: Defeat ShadowMan with any Busting LV. Defeat ShadowManSP with a 6-7 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)
+174,ShadoMn2(シャドーマンＶ２),90 (MMBN)70 (OSS),"S (MMBN), T (OSS)",Split into 3 for star attack,*****,S Chip: Defeat ShadowManSP with a 7-10 Busting LV.T Chip: Defeat ShadowManSP with a 7-10 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)
+175,ShadoMn3(シャドーマンＶ３),100 (MMBN)80 (OSS),"S (MMBN), T (OSS)",Split into 3 for star attack,*****,S Chip: Defeat ShadowManSP with a 9-S Busting LV.T Chip: Defeat ShadowManSP with a 7-10 Busting LV. (Defeat Shadowman found in Internet Area 15 as a random encounter)
+176(MMBN)180(OSS),Bass(フォルテForte),200,F,Explodes on entire area!,*****,F Chip: Japanese Event Exclusive (Only obtainable via cheats otherwise)
